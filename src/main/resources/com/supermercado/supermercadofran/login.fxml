@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.supermercado.supermercadofran.controladorLogin">
+   <children>
+      <Button fx:id="btn_borrar" layoutX="306.0" layoutY="256.0" mnemonicParsing="false" onAction="#borrar" prefHeight="31.0" prefWidth="187.0" text="Limpiar campos" />
+      <Button fx:id="btn_entrar" layoutX="306.0" layoutY="160.0" mnemonicParsing="false" onAction="#entrar" prefHeight="31.0" prefWidth="187.0" text="Entrar" />
+      <TextField fx:id="txt_usuario" layoutX="306.0" layoutY="55.0" />
+      <Text layoutX="71.0" layoutY="76.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Usuario" />
+      <Text layoutX="71.0" layoutY="126.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Contraseña" />
+      <PasswordField fx:id="txt_contrasena" layoutX="306.0" layoutY="105.0" />
+      <Button fx:id="btn_salir" layoutX="306.0" layoutY="355.0" mnemonicParsing="false" onAction="#salir" prefHeight="31.0" prefWidth="187.0" text="Salir" />
+      <TextArea fx:id="txt_consola" editable="false" layoutX="21.0" layoutY="155.0" prefHeight="233.0" prefWidth="267.0" wrapText="true" />
+   </children>
+</AnchorPane>
