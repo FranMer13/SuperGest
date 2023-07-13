@@ -12,7 +12,7 @@ public class Lanzador extends Application {
     public void start(Stage stage) throws IOException {
         conexionSQL conexion = new conexionSQL();
         FXMLLoader fxmlLoader = new FXMLLoader(Lanzador.class.getResource("login.fxml"));
-        Scene scene = new Scene(fxmlLoader.load(), 600, 400);
+        Scene scene = new Scene(fxmlLoader.load(), 600, 450);
         conexion.crearBase();
         stage.setTitle("SuperGest");
         stage.setScene(scene);
