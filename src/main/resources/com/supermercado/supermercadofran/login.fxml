@@ -7,7 +7,7 @@
 <?import javafx.scene.control.*?>
 <?import javafx.scene.layout.*?>
 
-<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.supermercado.supermercadofran.controladorLogin">
+<AnchorPane prefHeight="400.0" prefWidth="550.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.supermercado.supermercadofran.controladorLogin">
    <children>
       <Button fx:id="btn_borrar" layoutX="306.0" layoutY="256.0" mnemonicParsing="false" onAction="#borrar" prefHeight="31.0" prefWidth="187.0" text="Limpiar campos" />
       <Button fx:id="btn_entrar" layoutX="306.0" layoutY="160.0" mnemonicParsing="false" onAction="#entrar" prefHeight="31.0" prefWidth="187.0" text="Entrar" />
